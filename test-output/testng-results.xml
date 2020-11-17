@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10400" started-at="2020-11-17T23:16:07 IST" finished-at="2020-11-17T23:16:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10400" started-at="2020-11-17T23:16:07 IST" finished-at="2020-11-17T23:16:18 IST">
+      <class name="uiScripts.TestScripts">
+        <test-method status="PASS" signature="initializeVar()[pri:0, instance:uiScripts.TestScripts@57e1b0c]" name="initializeVar" is-config="true" duration-ms="6838" started-at="2020-11-17T23:16:00 IST" finished-at="2020-11-17T23:16:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeVar -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:uiScripts.TestScripts@57e1b0c]" name="beforeSuite" is-config="true" duration-ms="82" started-at="2020-11-17T23:16:07 IST" depends-on-methods="baseTest.TestBase.initializeVar" finished-at="2020-11-17T23:16:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="firstTestCase()[pri:0, instance:uiScripts.TestScripts@57e1b0c]" name="firstTestCase" duration-ms="10302" started-at="2020-11-17T23:16:07 IST" description="Validate Product Search and add to cart feature on flipkart" finished-at="2020-11-17T23:16:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:uiScripts.TestScripts@57e1b0c]" name="closeBrowser" is-config="true" duration-ms="1260" started-at="2020-11-17T23:16:18 IST" finished-at="2020-11-17T23:16:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- uiScripts.TestScripts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
